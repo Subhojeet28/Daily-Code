@@ -3,10 +3,12 @@ using namespace std;
 
 
 int main() {
-   int arr[4]={1,4,3,2};
+    int n;
+   int arr[n];
+   cin>>n;
    //int arr[n]; 
    int start=0;
-   int end=4-1;//it shows the array index
+   int end=n-1;//it shows the array index
    while(start<end)//strting will be always less than end as it start from 0
    {
        int temp=arr[start];
@@ -15,7 +17,7 @@ int main() {
        start=start+1;
        end=end-1;
    }
-   for(int i=0;i<4;i++)//to traverse the array
+   for(int i=0;i<n;i++)//to traverse the array
    {
        cout<<arr[i]<<" ";
    }
