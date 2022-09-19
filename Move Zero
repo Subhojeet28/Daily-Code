@@ -18,3 +18,5 @@ public:
 //here we have a two pointer approach named last and current which is initialized as 0 at first after than we have a while loop which shows that cur is less than the 
 array size which will be true till the last size of the array then it will go to if condition where it will swap the number if the number is not equal it will perform
 untill the 0 is pushback to the last
+
+[0,1,0,3,12]
