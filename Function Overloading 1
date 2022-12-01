@@ -1,0 +1,28 @@
+
+#include <iostream>
+using namespace std;
+int absolute(int x)
+{
+   return x; 
+}
+float absolute(float x)
+{
+       return x; 
+}
+double absolute(double x)
+{
+       return x; 
+}
+long absolute(long x)
+{
+       return x; 
+}
+int main() {
+    
+ cout<<absolute(-5)<<endl;
+ cout<<absolute(-5.5)<<endl;
+ cout<<absolute(10L)<<endl;
+ cout<<absolute(-10.11f)<<endl;
+
+    return 0;
+}
